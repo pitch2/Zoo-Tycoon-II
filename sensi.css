@@ -1,15 +1,16 @@
 body {
-    background-image: url('Firefly2020231001193248.png');
+    background-image: url('Firefly%2020231001193248.png');
     background-size: cover;
     background-repeat: repeat;
     overflow: overlay;
+
  }
 
 
 .card {
     min-height: 27em; /* Adjust minimum height as needed */
     width: 20em;
-    background: rgba(13, 131, 13, 0.719);
+    background: rgb(211 61 21 / 72%);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(6.5px);
     -webkit-backdrop-filter: blur(6.5px);
@@ -19,7 +20,8 @@ body {
     flex-direction: column;
     transition: ease 0.3s;
     text-align: bottom;
-  }
+    margin: 50% 0px 0px 10%;
+}
   
 .card:hover {
     transform: scale(1.1);
@@ -78,5 +80,14 @@ body {
     color: #000000;
     background-color: #FFD969;
     border-radius: 4px;
-   
+    margin-top: -60em;
 }    
+
+
+#box1{
+    margin-right:10%;
+}
+
+#box2{
+    margin-left:70%;
+}
