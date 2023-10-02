@@ -1,0 +1,82 @@
+body {
+    background-image: url('file:///C:/Users/Pichon/Desktop/Firefly%2020231001193248.png');
+    background-size: cover;
+    background-repeat: repeat;
+    overflow: overlay;
+ }
+
+
+.card {
+    min-height: 27em; /* Adjust minimum height as needed */
+    width: 20em;
+    background: rgba(13, 131, 13, 0.719);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(6.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    display: flex;
+    flex-direction: column;
+    transition: ease 0.3s;
+    text-align: bottom;
+  }
+  
+.card:hover {
+    transform: scale(1.1);
+  }
+  
+.titre {
+    font-family: 'Croissant One', cursive;
+    font-size: 1.5em; /* Adjust the font size as needed */
+    color: #FFD969;
+}
+
+.sous {
+    background-color:#142280;
+    border-radius: 10px 10px 0 0;
+}
+
+/* Adjust spacing between rows */
+.row {
+    margin-bottom: 20px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 767px) {
+.card {
+    min-height: auto; /* Allow cards to resize on smaller screens */
+}
+}
+
+.image{
+    height: 25%;
+    width: 75%;
+    border-radius: 10px;
+}
+
+.legende{
+    font-family: 'Croissant One', cursive;
+    margin-top: 25%;
+}
+
+
+::-webkit-scrollbar {
+    width:10px;
+    height: 100px;
+    background-color: #FFD969;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #7383e9;
+    border-radius: 10px;
+}
+
+
+.goto{
+    font-family: 'Croissant One', cursive;
+    font-size: 1.5em; /* Adjust the font size as needed */
+    color: #000000;
+    background-color: #FFD969;
+    border-radius: 4px;
+   
+}    

@@ -1,0 +1,78 @@
+body {
+  background-image: url('file:///C:/Users/Pichon/Desktop/Firefly%2020230930091747.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+}
+
+ul {
+  font-family: 'Croissant One', cursive;
+  list-style-type: none;
+  overflow: hidden;
+  color: black;
+}
+
+.card {
+  min-height: 25em; /* Adjust minimum height as needed */
+  width: 20em;
+  background: rgba(77, 100, 247, 0.65);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  display: flex;
+  flex-direction: column;
+  transition: ease 0.3s;
+  text-align: left;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  background-size: 110%;
+}
+
+.liste {
+  margin:0;
+  padding: 0;
+}
+
+.titre {
+  font-family: 'Croissant One', cursive;
+  font-size: 1.5em; /* Adjust the font size as needed */
+  color: #FFD969;
+}
+
+.signe{
+  color: #142280;
+}
+
+.sous {
+  background-color:#142280;
+  border-radius: 10px 10px 0 0;
+}
+
+/* Adjust spacing between rows */
+.row {
+  margin-bottom: 20px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 767px) {
+  .card {
+    min-height: auto; /* Allow cards to resize on smaller screens */
+  }
+}
+
+
+::-webkit-scrollbar {
+  width:10px;
+  height: 100px;
+  background-color: #FFD969;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #7383e9;
+  border-radius: 10px;
+}
